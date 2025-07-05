@@ -417,7 +417,7 @@ const PrivacyPolicyContent = ({ lang }: { lang: 'ja' | 'en' }) => {
             1. Introduction
           </SectionTitle>
           <SectionText>
-            TDR Days (the "App") is a visit tracking application for Tokyo Disneyland and Tokyo DisneySea, provided by Hayato Nakamura (the "Developer"). This Privacy Policy explains how the App collects, uses, and protects user information.
+            TDR Days (the &ldquo;App&rdquo;) is a visit tracking application for Tokyo Disneyland and Tokyo DisneySea, provided by Hayato Nakamura (the &ldquo;Developer&rdquo;). This Privacy Policy explains how the App collects, uses, and protects user information.
           </SectionText>
         </ContentSection2>
 

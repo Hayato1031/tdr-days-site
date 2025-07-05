@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import styled from "styled-components";
-import { Heart, Mail, Github, Twitter, Sparkles, Download, Shield, Camera, Calendar } from "lucide-react";
+import { Heart, Github, Twitter, Sparkles, Download, Shield, Camera, Calendar } from "lucide-react";
 
 const FooterContainer = styled.footer`
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);

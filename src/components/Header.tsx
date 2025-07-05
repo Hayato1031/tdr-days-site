@@ -1,19 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { Download, Menu, X, Sparkles, Star, Heart } from "lucide-react";
+import { Download, X, Sparkles, Star, Heart } from "lucide-react";
 import { useState, useEffect } from "react";
-import styled, { keyframes, css } from "styled-components";
+import styled, { css } from "styled-components";
 
 // Keyframes for animations
-const gradientAnimation = keyframes`
-  0%, 100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-`;
 
 // Styled Components
 const HeaderContainer = styled.header<{ $isScrolled: boolean }>`
@@ -624,7 +616,7 @@ export const Header = () => {
 
             {/* Enhanced Desktop Navigation */}
             <DesktopNav>
-              {navItems.map((item, index) => {
+              {navItems.map((item) => {
                 const IconComponent = item.icon;
                 return (
                   <NavItem key={item.href} href={item.href}>
@@ -696,7 +688,7 @@ export const Header = () => {
             {/* Enhanced Mobile Menu Navigation */}
             <MobileMenuNav>
               <MobileMenuNavList>
-                {navItems.map((item, index) => {
+                {navItems.map((item) => {
                   const IconComponent = item.icon;
                   return (
                     <MobileMenuNavItem
